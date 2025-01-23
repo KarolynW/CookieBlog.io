@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="./Stylesheet.css"/> 
+    <title>Cybersecurtiy</title>
+</head>
+<body>
+    
+    <div id="cookieModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Cookie Policy</h1>
+            <p>We use cookies to improve your experience using our site. By clicking accept you agree to our use of cookies.</p>
+            <button id="acceptCookies" class="modal-button">Accept</button>
+            <button id="necessayCookies" class="modal-button">Accept necessay cookies only</button>
+            <button id="customcookies" class="modal-button">Customise cookie consent</button>
+        </div>
+    </div>
+    
+
+  <div id="customCookieModal" class="modal">
+        <div class="Custom-modal-content">
+            <h1>Custom Cookie Consent</h1>
+            <p>We take cookie consent very seriously, and we would like to provide you with the information needed to make an informed decision about how we may use your data.</p>
+            <h2>Device information/Analytical Cookies</h2>
+            <div class="switch-container">  
+            <p class="consent">Allow the site access to local device information such as; OS, Browser and local free storage availability for site maintenece and devlopemnt purposes.</p> <label class="switch" id="Switch1">
+                        <input type="checkbox">
+                    <span class="slider round"></span>
+                </label> 
+            </div> 
+            <h2>Dev Support</h2>
+            <div class="switch-container">
+                 <p class="consent">Consent is required to provide support to the site development team through the use of "BuyTheDevsADrink" permissions.</p><label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div> 
+            <div class="saveandexit" class=modal-content>
+                <button id="AcceptAll" class="modal-button" >Accept All</Button>
+                <button id="SavePref" class="modal-button" >Save Preferences</button>
+                <button id="RejectAll" class="modal-button" >Reject All</Button>
+                <p>By selecting "Reject all" You are agreeing to allow us to only use necessary cookies.</p>
+
+            </div>
+            <script src="Cookiepage.js"></script>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>Cookies: The Who, What and Why!
+        </h1>
+        <p>In this blog, we will look into how cookies are used, what they do, and how you can access and see what information cookies are capturing. As well as what you can do to manage your digital footprint.
+        </p>
+    </div>
+
+    <div id="mentimeterQuiz" class="container">
+        <iframe id="mentimeter" sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/aleur3h68dwetk96frrqouhq2kd5iqho/embed' width='800'></iframe>
+    </div> 
+
+    <h2>Go to the mentimeter quiz by sacnning the qr code below</h2>
+    <h3>Or click <a href="https://www.menti.com/alibc4eqd98q">here</a> to go to the quiz</h3>
+    <img src="MentimeterQR.png" alt="Mentimeter QR code" class="qrcontainer">
+    <div id="WhatAreCookies" class="container">
+        <br><br>
+        <h2>What are cookies
+        </h2>
+        <p>Cookies in general are small text files that contain information about your web browsing activity. They are created by a website through use of Javascript functions that requests information off your device, and stores it on your browser for it to access, in the session or when you resturn, at a later time or date, dependant on the cookie and the inforamtion you allow it to access and for how long. </p>
+        <h2>Some common Misconceptions</h2>
+        <p>There are a few common misconceptions about cookies, such as:</p>
+        <li>You have to accept all cookies to use the website.</li><p>To answer simply — no. Denying full services to a user because they refused to consent is prohibited per the law. This myth is usually associated with the use of cookie walls on websites. A cookie wall is a popup or banner that restricts access to the website unless the user accepts all cookies. They are also known as “tracking walls,” since they use tracking cookies. If a site restricts access it is typically because they have interpreted the legislation regarding "Necessary cookies" incorrectly which do not require user consent as they are required to provide to allow a site-specific service. - i.e. Items in a shopping cart or "remember me" for user sign-in credentials.</p>
+        <li>The site is required to list all cookies that it intends to use</li><p>Again this is not true, a website isn't required to provide a list of every cookie by name that it uses, just an overview of what the cookies will do with the user's data that the site intends to set. This doesn't extend to 3rd party cookies however, a site is only required to say it intends to use 3rd party cookies </p>
+        <li>Cookies are spyware</li><p>This isn't true, by definition, spyware is a program or software that is discreetly installed or has access to your device and personal information without your consent or knowledge. However! An argument can be made about some tracking and 3rd cookies in particular and blindly consenting to them, leaving the definition a bit grey in this regard.</p>
+        <!--add common misconceptions-->
+
+        
+    </div>
+    <div id="WhatAreTheDifferntTypesOfCookies?" class="container">
+        <h2>What are the differnt types of cookies?
+        </h2>
+        <p>Cookies typically fall under two major categories: Essential, and Non-essential cookies and within that, you also have Session cookies and persistent cookies which overlap and can interchange between Essential and Non-essential. Specifically, there are several types of individual cookies and the tasks they perform / data they capture.</p>
+            <div id="cookieTypes">  
+                <div id="EssentialCookies" class="container">
+                    <h3>Essential Cookies</h3>
+                    <p>Essential Cookies are in most parts harmless and are automatically placed on your device in order for a website to function correctly. Typically they do not require user consent in order to be placed on your device as the information they gather is deemed strictly necessary to provide an "information society service" (eg a service over the internet) requested by the subscriber or user. </p>
+                    <h4>Some examples of these cookies:</h4>
+                    <li>Session cookies</li><p>These cookies remember your activities on a website. For example, they keep you logged in to your account as you browse a website. Once you have finished on the site or browser they are automatically deleted after you leave the session.</p>
+                    <li>User Input Cookies (session-id)</li><p> Used to keep track of items that the user inputs to your website. For instance, a cookie that remembers the answers to an online form or the items in a customer's shopping cart. Unlike session cookies, Session IDs are typically used in conjunction with login (authentication) tracking cookies (persistent cookies) and will remember your session as long as you log back into an account.</p>
+                    <li> Authentication Cookies</li><p>Are tracking cookies that work by identifying users through their login credentials. When a website visitor enters their user ID and password (including when using a password manager), these cookies will confirm the user's identity and “remember” their account information.</p>   
+                    <li> User-centric security cookies</li><p>These cookies detect authentication errors and abuses, such as incorrect login details. For example, when a visitor enters incorrect login credentials, these cookies detect that and keep track of how many incorrect entries get made.</p>
+                    
+                </div>
+                <div id="Non-essentialCookies" class="container">
+                    <h3>Non-essential Cookies</h3>
+                    <p>Non-essential cookies are cookies that fall out of the context of essential and require user consent for them to be placed on your browser cache. This is where the waters on user security get a bit muddy and put you in the driving seat. So it helps to be aware of what you are consenting to be stored on your browser cache.</p>
+                    <h4>Some examples of Non-essential Cookies are:</h4>
+                    <li>Third-Party Cookies or Tracking Cookies</li><p>Third-party cookies are worth concern and are the source of the bad reputation that cookies tend to have. Instead of being created directly by the web page, other websites are responsible for generating these cookies. They are usually linked to advertisements found on websites.
+                        For example, a site with ten advertisements could generate ten cookies, regardless of whether the user clicks on them or not. Advertisers and analytics companies can use tracking cookies to monitor your browsing habits across the internet. With this data, companies can target you with custom advertisements. These are the pesky and annoying ads that appear on Facebook or other sites you visit that display content relevant to your interests.</p>
+                        <li>Secure Cookies</li><p>These cookies are not as common as other types of internet cookies. Secure cookies can only be transmitted if the connection is encrypted, which generally means that only HTTPS websites can send them.
+                            Nevertheless, secure cookies are susceptible to being attacked. Once they are on your browser, a hacker can overwrite them even from an unsecured connection. Therefore, it is better if they do not store sensitive information such as login credentials.
+                           E-commerce sites usually integrate this type of cookie to ensure safer transactions. Secure cookies are also required to be used by online banking websites for security purposes.
+                           Note* Banking websites and large organizations that use these do have security measures in place to limit this, however, it is still best to be cautious about these, especially on non-mainstream e-commerce sites you haven't visited before.</p>
+                        <li>Flash Cookies</li><p>Developers usually use the Flash plugin to hide these types of internet cookies from being detected by your browser's cookie management tools.
+                        Because these cookies are available for most browsers, you will not gain many security benefits by using different browsers for different purposes.</p>
+                </div>
+         </div>
+
+         <div>
+            <div id="Duration" class="container">
+                <h2>How long do cookies last?</h2>
+                <p>There are two types of cookies in terms of how long they last: Session cookies and Persistent cookies</p>
+                <h3>Session Cookies</h3>
+                <p>Session cookies are temporary cookies that are erased from your device when you close your web browser. They are used to store temporary information, such as items in a shopping cart.</p>
+                <h3>Persistent Cookies</h3>
+                <p>Persistent cookies are stored on your device for a longer period of time. They are used to store information between visits to a site. This data allows the site to recognize you as a returning visitor and customize the site to your preferences.</p>
+         </div>
+        
+      <h3>Note!</h3>
+        <p>Unfortunately, the list above is not inclusive of every single type of cookie in use or existence, as the world of tech moves and innovates extremely quickly, these are just some examples of typical cookies you and other browsers will interact with on a daily basis.</p>
+    
+    </div>
+    <div class="container">
+        <h2>Why is this important to know?</h2>
+        <p>As outlined above cookies and in particular "Non-essential Cookies" offer "useful" ways for websites and companies to remember you and your choices. They also open users up to consenting to allow large amounts of online data information (browsing history, login credentials credit card information) as well as very personal information (such as your live location) to be tracked and or intercepted/hacked.</p>
+    </div>
+
+    <div class="container">
+        <h2>Possible Secuirty risks</h2>
+        <p>So with cookies particularly 3rd party cookies, there is a potential risk in that site hosts/owners don't update their site and cookies regularly and cookies can become susceptible to being hacked and when accessing the site it then allows hackers to gather your sensitive information that you have consented to provide.</p>
+    </div> </div>
+
+    <div class="container">
+        <h2>How can you see what data is being captured?
+        </h2>
+        <p>Typically yes but not live. When accessing a website you should see a cookie pop-up window or banner somewhere on the page, If you select Customise or Custom cookie consent, you will come across a new pop-up window or banner that lists all the cookies that the website wishes to use. as well as some sort of explanation what they do, capture and for how long! as well as list 3rd party cookies. However, according to current legislation, the site doesn't have to tell you exactly what the 3rd party cookies do, as the responsibility for that falls on the 3rd party site to list its use of cookies on its own site.</p>
+    </div>
+    <div class="container">
+        <h2>What can you do to mitigate and mange what data you provide and what they hold onto?
+        </h2>
+        <p>When it comes to mitigation techniques for cookies, the best thing you can do is to clear your cookie cache regularly.<br><br> But prevention is better than cure when it comes to protecting your data, and when browsing, and going onto sites that you haven't been to before, you do well to either reject all/accept necessary or customise consent so you can read up what information you consent to give, and what the site intends to do with that data and how long they store it on your browser.</p>
+    </div>
+
+    <h3>See below how you can clear your cooke cache.</h3>
+    <p>On most browsers, you can clear your cookie cache by going to clear history and selecting clear cache.<br> You can go one step further however and set your cookie cache to auto-delete within a specified time frame.</p>
+
+    <img src="./ClearCache.png" alt="ClearCache" class="Imagecontainer">
+
+    <!--Add Screen shot of MacOS Cache Location and Win Cache Location-->
+    
+    
+</body>
+</html>
